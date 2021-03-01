@@ -21,10 +21,14 @@ body{
    font-weight: 700;
    border-radius: 6px;
 }
-#lista1 li {
-   display:inline;
-}
 
+#lista li{
+   display: inline;
+  
+}
+.lista{
+   list-style: none;
+}
 
 .letra{ 
 
@@ -57,5 +61,8 @@ body{
    }
    .color{
       text-align: center;
+   }
+   .lista{
+      margin: 5px;
    }
 }
